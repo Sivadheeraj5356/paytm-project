@@ -1,5 +1,5 @@
-const JWT_token = "sivadheeraj"
+const JWT_secret = "sivadheeraj"
 
 module.exports={
-    JWT_token
+    JWT_secret
 }
