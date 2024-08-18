@@ -12,6 +12,7 @@ app.use(express.json())
 app.use('/api/v1',rootRouter)
 app.use('/api/v1/user' , userRouter)
 
+
 const signUpBody = zod.object({
       username : zod.string().email(),
       password : zod.string(),
