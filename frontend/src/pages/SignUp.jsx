@@ -16,7 +16,7 @@ export function SignUp(){
         <InputBox label={"Email"} placeholder={"sivadheeraj@gmail.com"}></InputBox>
         <InputBox label={"Password"} placeholder={"123456"}></InputBox>
         <Button label={"Sign Up"}></Button>
-        <BottomWarning label={"Already have an account?"} buttonText={"Sign In"}></BottomWarning>
+        <BottomWarning label={"Already have an account?"} buttonText={"Sign In"} to={"/signIn"}></BottomWarning>
         </div>
         </div>
         </div>
